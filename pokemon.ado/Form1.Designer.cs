@@ -55,19 +55,19 @@ namespace pokemon.ado
             this.dgvPokemons.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPokemons.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvPokemons.GridColor = System.Drawing.Color.LightCoral;
-            this.dgvPokemons.Location = new System.Drawing.Point(6, 36);
+            this.dgvPokemons.Location = new System.Drawing.Point(7, 54);
             this.dgvPokemons.MultiSelect = false;
             this.dgvPokemons.Name = "dgvPokemons";
             this.dgvPokemons.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPokemons.Size = new System.Drawing.Size(553, 192);
+            this.dgvPokemons.Size = new System.Drawing.Size(550, 169);
             this.dgvPokemons.TabIndex = 0;
             this.dgvPokemons.SelectionChanged += new System.EventHandler(this.dgvPokemons_SelectionChanged);
             // 
             // pbxPokemon
             // 
-            this.pbxPokemon.Location = new System.Drawing.Point(565, 36);
+            this.pbxPokemon.Location = new System.Drawing.Point(563, 36);
             this.pbxPokemon.Name = "pbxPokemon";
-            this.pbxPokemon.Size = new System.Drawing.Size(336, 308);
+            this.pbxPokemon.Size = new System.Drawing.Size(340, 320);
             this.pbxPokemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxPokemon.TabIndex = 1;
             this.pbxPokemon.TabStop = false;
@@ -75,7 +75,12 @@ namespace pokemon.ado
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.Bisque;
-            this.btnAgregar.Location = new System.Drawing.Point(8, 315);
+            this.btnAgregar.FlatAppearance.BorderColor = System.Drawing.Color.Tan;
+            this.btnAgregar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Tan;
+            this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAgregar.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Location = new System.Drawing.Point(7, 327);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(87, 29);
             this.btnAgregar.TabIndex = 2;
@@ -86,7 +91,12 @@ namespace pokemon.ado
             // btnModificar
             // 
             this.btnModificar.BackColor = System.Drawing.Color.Bisque;
-            this.btnModificar.Location = new System.Drawing.Point(101, 315);
+            this.btnModificar.FlatAppearance.BorderColor = System.Drawing.Color.Tan;
+            this.btnModificar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Tan;
+            this.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnModificar.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.Location = new System.Drawing.Point(100, 327);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(91, 29);
             this.btnModificar.TabIndex = 3;
@@ -97,7 +107,12 @@ namespace pokemon.ado
             // btnEliminarFisico
             // 
             this.btnEliminarFisico.BackColor = System.Drawing.Color.Bisque;
-            this.btnEliminarFisico.Location = new System.Drawing.Point(198, 315);
+            this.btnEliminarFisico.FlatAppearance.BorderColor = System.Drawing.Color.Tan;
+            this.btnEliminarFisico.FlatAppearance.CheckedBackColor = System.Drawing.Color.Tan;
+            this.btnEliminarFisico.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.btnEliminarFisico.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEliminarFisico.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarFisico.Location = new System.Drawing.Point(197, 327);
             this.btnEliminarFisico.Name = "btnEliminarFisico";
             this.btnEliminarFisico.Size = new System.Drawing.Size(91, 29);
             this.btnEliminarFisico.TabIndex = 4;
@@ -108,38 +123,51 @@ namespace pokemon.ado
             // btnEliminiarLogico
             // 
             this.btnEliminiarLogico.BackColor = System.Drawing.Color.Bisque;
-            this.btnEliminiarLogico.Location = new System.Drawing.Point(295, 315);
+            this.btnEliminiarLogico.FlatAppearance.BorderColor = System.Drawing.Color.Tan;
+            this.btnEliminiarLogico.FlatAppearance.CheckedBackColor = System.Drawing.Color.Tan;
+            this.btnEliminiarLogico.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.btnEliminiarLogico.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEliminiarLogico.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminiarLogico.Location = new System.Drawing.Point(294, 327);
             this.btnEliminiarLogico.Name = "btnEliminiarLogico";
-            this.btnEliminiarLogico.Size = new System.Drawing.Size(91, 29);
+            this.btnEliminiarLogico.Size = new System.Drawing.Size(89, 29);
             this.btnEliminiarLogico.TabIndex = 5;
-            this.btnEliminiarLogico.Text = "Eliminar Logico";
+            this.btnEliminiarLogico.Text = "Descativar";
             this.btnEliminiarLogico.UseVisualStyleBackColor = false;
             this.btnEliminiarLogico.Click += new System.EventHandler(this.btnEliminiarLogico_Click);
             // 
             // lblFiltro
             // 
             this.lblFiltro.AutoSize = true;
-            this.lblFiltro.Location = new System.Drawing.Point(3, 20);
+            this.lblFiltro.BackColor = System.Drawing.Color.Wheat;
+            this.lblFiltro.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFiltro.Location = new System.Drawing.Point(12, 26);
             this.lblFiltro.Name = "lblFiltro";
-            this.lblFiltro.Size = new System.Drawing.Size(29, 13);
+            this.lblFiltro.Size = new System.Drawing.Size(76, 16);
             this.lblFiltro.TabIndex = 6;
-            this.lblFiltro.Text = "Filtro";
+            this.lblFiltro.Text = "Filtro Rapido";
             // 
             // txtBuscar
             // 
-            this.txtBuscar.BackColor = System.Drawing.Color.SeaShell;
-            this.txtBuscar.Location = new System.Drawing.Point(38, 13);
+            this.txtBuscar.BackColor = System.Drawing.Color.Tan;
+            this.txtBuscar.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.Location = new System.Drawing.Point(94, 23);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(153, 20);
+            this.txtBuscar.Size = new System.Drawing.Size(153, 25);
             this.txtBuscar.TabIndex = 7;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // btnFiltro
             // 
             this.btnFiltro.BackColor = System.Drawing.Color.Bisque;
-            this.btnFiltro.Location = new System.Drawing.Point(386, 279);
+            this.btnFiltro.FlatAppearance.BorderColor = System.Drawing.Color.Tan;
+            this.btnFiltro.FlatAppearance.CheckedBackColor = System.Drawing.Color.Tan;
+            this.btnFiltro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.btnFiltro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFiltro.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFiltro.Location = new System.Drawing.Point(359, 274);
             this.btnFiltro.Name = "btnFiltro";
-            this.btnFiltro.Size = new System.Drawing.Size(86, 20);
+            this.btnFiltro.Size = new System.Drawing.Size(86, 28);
             this.btnFiltro.TabIndex = 8;
             this.btnFiltro.Text = "Buscar";
             this.btnFiltro.UseVisualStyleBackColor = false;
@@ -148,33 +176,39 @@ namespace pokemon.ado
             // lblCampo
             // 
             this.lblCampo.AutoSize = true;
+            this.lblCampo.BackColor = System.Drawing.Color.Wheat;
+            this.lblCampo.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCampo.Location = new System.Drawing.Point(5, 245);
             this.lblCampo.Name = "lblCampo";
-            this.lblCampo.Size = new System.Drawing.Size(40, 13);
+            this.lblCampo.Size = new System.Drawing.Size(41, 16);
             this.lblCampo.TabIndex = 9;
             this.lblCampo.Text = "Campo";
             // 
             // lblCriterio
             // 
             this.lblCriterio.AutoSize = true;
-            this.lblCriterio.Location = new System.Drawing.Point(185, 245);
+            this.lblCriterio.BackColor = System.Drawing.Color.Wheat;
+            this.lblCriterio.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCriterio.Location = new System.Drawing.Point(179, 244);
             this.lblCriterio.Name = "lblCriterio";
-            this.lblCriterio.Size = new System.Drawing.Size(39, 13);
+            this.lblCriterio.Size = new System.Drawing.Size(48, 16);
             this.lblCriterio.TabIndex = 10;
             this.lblCriterio.Text = "Criterio";
             // 
             // FiltroAvanzado
             // 
             this.FiltroAvanzado.AutoSize = true;
+            this.FiltroAvanzado.BackColor = System.Drawing.Color.Wheat;
+            this.FiltroAvanzado.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FiltroAvanzado.Location = new System.Drawing.Point(365, 245);
             this.FiltroAvanzado.Name = "FiltroAvanzado";
-            this.FiltroAvanzado.Size = new System.Drawing.Size(29, 13);
+            this.FiltroAvanzado.Size = new System.Drawing.Size(37, 16);
             this.FiltroAvanzado.TabIndex = 11;
             this.FiltroAvanzado.Text = "Filtro";
             // 
             // cboCampo
             // 
-            this.cboCampo.BackColor = System.Drawing.Color.SeaShell;
+            this.cboCampo.BackColor = System.Drawing.Color.Tan;
             this.cboCampo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCampo.FormattingEnabled = true;
             this.cboCampo.Location = new System.Drawing.Point(52, 242);
@@ -185,7 +219,7 @@ namespace pokemon.ado
             // 
             // cboCriterio
             // 
-            this.cboCriterio.BackColor = System.Drawing.Color.SeaShell;
+            this.cboCriterio.BackColor = System.Drawing.Color.Tan;
             this.cboCriterio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCriterio.FormattingEnabled = true;
             this.cboCriterio.Location = new System.Drawing.Point(232, 242);
@@ -195,17 +229,23 @@ namespace pokemon.ado
             // 
             // txtFiltro
             // 
-            this.txtFiltro.BackColor = System.Drawing.Color.SeaShell;
+            this.txtFiltro.BackColor = System.Drawing.Color.Tan;
+            this.txtFiltro.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFiltro.Location = new System.Drawing.Point(412, 243);
             this.txtFiltro.Name = "txtFiltro";
-            this.txtFiltro.Size = new System.Drawing.Size(120, 20);
+            this.txtFiltro.Size = new System.Drawing.Size(120, 25);
             this.txtFiltro.TabIndex = 14;
             // 
             // btnvolver
             // 
-            this.btnvolver.Location = new System.Drawing.Point(478, 279);
+            this.btnvolver.FlatAppearance.BorderColor = System.Drawing.Color.Tan;
+            this.btnvolver.FlatAppearance.CheckedBackColor = System.Drawing.Color.Tan;
+            this.btnvolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnvolver.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvolver.Location = new System.Drawing.Point(451, 274);
             this.btnvolver.Name = "btnvolver";
-            this.btnvolver.Size = new System.Drawing.Size(81, 20);
+            this.btnvolver.Size = new System.Drawing.Size(81, 28);
             this.btnvolver.TabIndex = 15;
             this.btnvolver.Text = "Volver";
             this.btnvolver.UseVisualStyleBackColor = true;
@@ -216,7 +256,7 @@ namespace pokemon.ado
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(905, 356);
+            this.ClientSize = new System.Drawing.Size(905, 368);
             this.Controls.Add(this.btnvolver);
             this.Controls.Add(this.txtFiltro);
             this.Controls.Add(this.cboCriterio);
@@ -233,8 +273,11 @@ namespace pokemon.ado
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.pbxPokemon);
             this.Controls.Add(this.dgvPokemons);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "frmPokemons";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lista Pokemons";
             this.Load += new System.EventHandler(this.frmPokemons_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPokemons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPokemon)).EndInit();
